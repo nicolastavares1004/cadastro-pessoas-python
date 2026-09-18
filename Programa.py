@@ -63,7 +63,7 @@ def salvar_pessoas(nome_arquivo, pessoas):
 
 opção = 0
 while opção != 5:
-    opção = int(input('========== MENU ==========\n1 - Mostrar pessoas\n2 - Adicionar pessoa\n3 - Alterar pessoa\n4 - Excluir pessoa\n5 - Sair\n==========================\n'))
+    opção = int(input('====== CADASTRO DE PESSOAS ======\n1 - Mostrar pessoas\n2 - Adicionar pessoa\n3 - Alterar pessoa\n4 - Excluir pessoa\n5 - Sair\n==========================\n'))
     if opção == 1:
         mostrar_pessoas(pessoas)
 
