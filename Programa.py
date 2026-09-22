@@ -78,7 +78,7 @@ while opção != 5:
         pessoas = excluir_pessoa(pessoas,input('Digite o Nome de quem quer excluir: '))
 
     elif opção == 6:
-        print('-'*50,'\nSistema de cadastro de pessoas - VERSÃO TESTE\nDesenvolvido em Python\n','-'*50)
+        print('-'*50,'\nSistema de cadastro de pessoas - TESTE 2 \nDesenvolvido em Python\n','-'*50)
 
 salvar_pessoas('pessoas.txt',pessoas)    
     
