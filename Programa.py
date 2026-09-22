@@ -63,7 +63,7 @@ def salvar_pessoas(nome_arquivo, pessoas):
 
 opção = 0
 while opção != 5:
-    opção = int(input('===== CADASTRO DE PESSOAS v2 =====\n1 - Mostrar pessoas\n2 - Adicionar pessoa\n3 - Alterar pessoa\n4 - Excluir pessoa\n5 - Sair\n==========================\n'))
+    opção = int(input('===== CADASTRO DE PESSOAS v2 =====\n1 - Mostrar pessoas\n2 - Adicionar pessoa\n3 - Alterar pessoa\n4 - Excluir pessoa\n5 - Sair\n6 - Sobre o Programa\n==========================\n'))
     if opção == 1:
         mostrar_pessoas(pessoas)
 
@@ -76,5 +76,9 @@ while opção != 5:
 
     elif opção == 4:
         pessoas = excluir_pessoa(pessoas,input('Digite o Nome de quem quer excluir: '))
+
+    elif opção == 6:
+        print('-'*50,'\nSistema de cadastro de pessoas \nDesenvolvido em Python\n','-'*50)
+
 salvar_pessoas('pessoas.txt',pessoas)    
     
